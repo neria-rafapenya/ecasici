@@ -140,4 +140,12 @@ dist
 # Vite files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+# Local generated artifacts for this project
+dist/
+**/__pycache__/
+*.pyc
+backend/.venv/
+backend/data/*.sqlite3
+.DS_Store
 .vite/
